@@ -9,5 +9,7 @@ int main (int argc, char * argv[])
 		cout << argv[i] << endl;
 	}
 
+	cout << stoi(argv[1]) + stoi(argv[2]) << endl;
+
 	return 0;
 }
