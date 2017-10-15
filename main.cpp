@@ -11,7 +11,6 @@ int main (int argc, char * argv[])
 		return failure;
 	}
 
-	cout << argv[programName] << endl;
 
 	return success;
 }
