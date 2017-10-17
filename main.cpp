@@ -8,6 +8,7 @@ int main (int argc, char * argv[])
 {
 	if (argc != num_args) {
 		cout << "Wrong number of args." << endl;
+		cout << "./main" << endl;
 		return failure;
 	}
 
